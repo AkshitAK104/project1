@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+#photo-container {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+#prev-button {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#next-button {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#up-button {
+    top: 10%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
